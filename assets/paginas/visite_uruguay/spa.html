@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Spa</title>
+    <link rel="stylesheet" href="/assets/css/css-vu-spa-vet/estilospa.css">
+</head>
+<body>
+    <header>
+        <h1>Un Spa</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="/assets/paginas/visite_uruguay/menuvisiteuruguay.html">Ir Atras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <div class="banner">
+            <img src="/assets/img/img-vu-spa-vet/img-spa/img-spa.jpg" alt="Imagen del spa">
+            <h2>Bienvenido a Un Spa</h2>
+            <p>Un Spa de paz y relajación donde podrás renovar tu cuerpo y mente.</p>
+            <a href="#servicios" class="btn">Conoce nuestros servicios</a>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros servicios</h2>
+        <div class="servicios">
+            <div class="servicio">
+                <img src="/assets/img/img-vu-spa-vet/img-spa/facial.jpeg" alt="Tratamiento facial">
+                <h3>Facial Renovador</h3>
+                <p>Un tratamiento facial que limpia, hidrata y rejuvenece tu piel.</p>
+            </div>
+            <div class="servicio">
+                <img src="/assets/img/img-vu-spa-vet/img-spa/masaje.jpg" alt="Masaje relajante">
+                <h3>Masaje Relajante</h3>
+                <p>Un masaje que te ayudará a eliminar el estrés y la tensión muscular.</p>
+            </div>
+            <div class="servicio">
+                <img src="/assets/img/img-vu-spa-vet/img-spa/manicure.jpg" alt="Manicura y pedicura">
+                <h3>Manicura y Pedicura</h3>
+                <p>Un servicio completo para cuidar tus manos y pies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre nosotros</h2>
+        <p>En Un Spa estamos comprometidos con brindarte una experiencia única de bienestar y relajación. Nuestro equipo de profesionales altamente capacitados te brindará una atención personalizada y te ayudará a elegir los tratamientos que mejor se adapten a tus necesidades.</p>
+        <p>Utilizamos productos de alta calidad y técnicas innovadoras para garantizarte los mejores resultados. Además, nuestro ambiente cálido y acogedor te ayudará a desconectarte del mundo exterior y sumergirte en un estado de profunda relajación.</p>
+    </section>
+
+    <section id="contacto">
+        <fieldset>
+            <h2>Contáctano</h2>
+            <form action="bdspa.php" method="get" enctype="multipart/form-data">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </fieldset>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Un Spa</p>
+        <a href="noHay">Términos y condiciones</a>
+        <a href="noHay">Política de privacidad</a>
+    </footer>
+</body>
+</html>

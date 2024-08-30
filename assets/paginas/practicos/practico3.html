@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/css-prac/estilo-pracs.css">
+    <title>Practico 3</title>
+</head>
+<body>
+    <h1>Practico 3</h1>
+    <h3>Formulario de registro</h3>
+    <fieldset>
+        <form action="DP3.php" method="post">
+            <p>Genero: 
+                <input type="radio" id="hombre" name="genero" value="Hombre">
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="genero" value="Mujer">
+                <label for="mujer">Mujer</label>
+            </p>
+            <p>Ciudad: 
+                <select name="ciudad" id="ciudad">
+                    <option value="Montevideo">Montevideo</option>
+                    <option value="Maldonado">Maldonado</option>
+                    <option value="Canelones">Canelones</option>
+                </select>    
+            </p>
+            <fieldset><legend>Preferencias</legend>
+                <input type="checkbox" id="deportes" name="eleccion" value="Deportes">
+                <label for="Deportes">Deportes</label><br>
+                <input type="checkbox" id="libros" name="eleccion" value="Libros">
+                <label for="libros">Libros</label><br>
+                <input type="checkbox" id="cine" name="eleccion" value="Cine">
+                <label for="cine">Cine</label>
+            </fieldset><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+            <a href="practicos.html"><input type="button" value="Atras"></a>
+        </form>
+    </fieldset>
+</body>
+</html>

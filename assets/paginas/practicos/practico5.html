@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/css-prac/estilo-pracs.css">
+    <title>Practico 5</title>
+</head>
+<body>
+    <h1>Practico 5</h1>
+    <fieldset>
+        <form action="DP5.php" method="post">
+            <label for="name">Nombre: </label>
+            <input type="text" id="name" name="name" value=""><br><br>
+            <label for="apell">Apellidos: </label>
+            <input type="text" id="apell" name="apell" value=""><br>
+            <p>Sexo:
+                <input type="radio" id="hombre" name="sexo" value="Hombre">
+                <label for="hombre">hombre</label>
+                <input type="radio" id="mujer" name="sexo" value="Mujer">
+                <label for="mujer">mujer</label><br>
+            </p>
+            <label for="correo">Correo electronico:</label>
+            <input type="email" id="correo" name="correo" value="">
+            <p>Ciudad: 
+                <select name="ciudad" id="ciudad">
+                    <option value="Montevideo">Montevideo</option>
+                    <option value="Maldonado">Maldonado</option>
+                    <option value="Canelones">Canelones</option>
+                    <option value="San José">San José</option>
+                </select>
+            </p>
+            <label for="mensaje">Descripción:</label>
+            <textarea name="mensaje" id="mensaje" cols="50" rows="5"></textarea><br><br>
+            <input type="checkbox" id="opcion1" name="opciones" value="Deseo recibir información sobre novedades y ofertas">
+            <label for="opcion1">Deseo recibir información sobre novedades y ofertas</label><br>
+            <input type="checkbox" id="opcion2" name="opciones" value="Estoy de acuerdo con recibir información">
+            <label for="opcion2">Estoy de acuerdo con recibir información</label><br><br>
+            <input type="submit" value="Enviar">
+            <a href="practicos.html"><input type="button" value="Atras"></a>
+        </form>
+    </fieldset>
+</body>
+</html>

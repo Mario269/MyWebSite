@@ -1,0 +1,246 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* Variables de colores */
+:root {
+    --color-celeste: #007bff;
+    --color-azul: #2274A5;
+    --color-blanco: #FFFCF9;
+    --color-oscuro: #0E131F;
+  }
+
+/* Partes principales de la pagina*/
+
+body
+{
+    box-sizing: border-box;
+    background: var(--color-blanco);
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    height: 322rem;
+}
+
+header
+{
+    background: var(--color-celeste);
+    color: white;
+    width: 80rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Slab", serif;
+    text-decoration: none;
+}
+
+.div_titulo
+{
+    width: 80rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.div_nav
+{
+    width: 80rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav{
+    width: 80rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul, li 
+{
+    width: 40rem;
+    height: 3rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--color-blanco);
+}
+
+a
+{
+    color: #fff;
+}
+
+a:hover
+{
+    color: cornflowerblue;
+}
+
+li:hover
+{
+    display: flex;
+    justify-content: center;
+    background: var(--color-azul);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.info_uy
+{
+    color: black;
+    width: 80rem;
+    height: 270rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title2
+{
+padding-top: 1rem;
+}
+
+.pu, .pm, .ppde, .pc, .pr {
+    padding-top: 1rem;
+    width: 70rem;
+    height:60rem;
+    line-height: 24px;
+}
+
+.ban
+{
+    padding-top: 2rem;
+}
+
+h3
+{
+    padding-top: 1rem;
+}
+
+.dimgm, .dimgpde, .dimgc, .dimgr
+{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.sitios
+{
+    width: 79rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+fieldset
+{
+    background: var(--color-celeste);
+    box-sizing: border-box;
+    width: 80rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none; 
+    color: var(--color-oscuro); 
+}
+
+.titulosregistro
+{
+    width: 80rem;
+    height: 4rem;
+    background: var(--color-oscuro);
+    color: var(--color-blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+#name, #apell, #correo, #mensaje
+{
+    background: rgb(20, 20, 20, 0.1);
+    padding:5px;
+    border-radius: 4px;
+    border:1px double black;
+    outline:none;
+    color: black;
+    background: var(--color-blanco);
+}
+
+input::placeholder{
+    color:#323232;
+}
+
+.btnenviar
+{
+    border: 0.13rem black solid;
+    background: var(--color-blanco);
+    cursor: pointer;
+}
+
+.contacto
+{
+    background: #333;
+    color: white;
+    width: 80rem;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulocontacto
+{
+    width: 80rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.divcontacto
+{
+    width: 80rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.telefono1:hover, .correo1:hover, .insta:hover
+{
+color: var(--color-azul);
+cursor: text;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}

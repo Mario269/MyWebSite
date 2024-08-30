@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/css-prac/estilo-pracs.css">
+    <title>Pracrtico 2</title>
+</head>
+<body>
+    <h1>Practico 2</h1>
+    <h3>Formulario de registro</h3>
+    <fieldset>
+        <form action="DP2.php" method="get">
+            <fieldset><legend>Datos personales</legend><br>
+                <label for="name">Nombre: </label>
+                <input type="text" id="name" name="name" value=""><br><br>
+                <label for="apell">Apellido: </label>
+                <input type="text" id="apell" name="apell" value="">
+                <p>Sexo: 
+                    <input type="radio" id="masculino" name="sexo" value="Masculino">
+                    <label for="masculino">hombre</label>
+                    <input type="radio" id="femenino" name="sexo" value="Femenino">
+                    <label for="femenino">mujer</label>
+                </p>
+            </fieldset>
+            <fieldset><legend>Contacto</legend>
+                <label for="correo">Correo: </label>
+                <input type="email" id="correo" name="correo" value=""><br>
+                <input type="checkbox" id="opcion1" name="opciones" value="Deseo recibir información sobre novedades y ofertas.">
+                <label for="opcion1">Deseo recibir información sobre novedades y ofertas.</label><br>
+                <input type="checkbox" id="opcion2" name="opciones" value="Declaro haber leído y aceptar las condiciones del proveedor.">
+                <label for="opcion2">Declaro haber leído y aceptar las condiciones del proveedor.</label>
+            </fieldset><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+            <a href="practicos.html"><input type="button" value="Atras"></a>
+        </form>
+    
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/css-prac/estilo-pracs.css">
+    <title>Practico 4</title>
+</head>
+<body>
+    <h1>Practico 4</h1>
+    <h3>Formulario de contacto</h3>
+    <fieldset>
+        <form action="DP4.php" method="get">
+            <fieldset><legend>Datos personales</legend>
+                <label for="name">Nombre completo:</label>
+                <input type="text" id="name" name="name" value=""><br><br>
+                <label for="tel">Teléfono:</label>
+                <input type="number" id="tel" name="tel" value=""><br><br>
+                <label for="correo">Correo electronico:</label>
+                <input type="text" id="correo" name="correo" value=""><br><br>
+                <p>País: 
+                    <select name="pais" id="pais">
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Argentina">Argentina</option>    
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset><legend>Intereses</legend>
+                <input type="checkbox" id="opcion1" name="opciones" value="Deportes">
+                <label for="opcion1">Deportes</label><br>
+                <input type="checkbox" id="opcion2" name="opciones" value="Musica">
+                <label for="opcion2">Musica</label>    
+            </fieldset><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+            <a href="practicos.html"><input type="button" value="Atras"></a>
+        </form>
+    </fieldset>
+</body>
+</html>
